@@ -1,0 +1,27 @@
+{
+  "name": "udemy_mastering_typescript_2026_course_mathew_ritchie",
+  "version": "1.0.0",
+  "description": "I have created this repository for use with a Udemy TypeScript course I have started.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mathew-Ritchie/Udemy_Mastering_Typescript_2026_Course_Mathew_Ritchie.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Mathew-Ritchie/Udemy_Mastering_Typescript_2026_Course_Mathew_Ritchie/issues"
+  },
+  "homepage": "https://github.com/Mathew-Ritchie/Udemy_Mastering_Typescript_2026_Course_Mathew_Ritchie#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "axios": "^1.13.5"
+  }
+}
