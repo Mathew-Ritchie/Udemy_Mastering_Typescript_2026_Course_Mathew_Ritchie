@@ -56,11 +56,16 @@ for (let i = 0; i < words.length; i++) {
     }
 }
 //3) variable whose type cannot be inferred correctly 
-let numbers: number[] = [-10, -1, 12 ]
-let numberAboveZero: number | boolean  = false;
 
-for (let i= 0; i < numbers.length; i++) {
-    if (numbers[i] > 0 ){
-        numberAboveZero = numbers[i]
+
+let numbers: number[] = [-10, -1, 12];
+let numberAboveZero: number | undefined;
+
+for (let i = 0; i < numbers.length; i++) {
+    const current = numbers[i];
+
+    if (current !== undefined && current > 0) {
+        numberAboveZero = current;
+        break;
     }
 }
